@@ -1,7 +1,8 @@
 var res = {
     Board_png : "res/board.png",
     CloseNormal_png : "res/CloseNormal.png",
-    CloseSelected_png : "res/CloseSelected.png"
+    CloseSelected_png : "res/CloseSelected.png",
+    Tile_png : "res/tile.png"
 };
 
 var g_resources = [];

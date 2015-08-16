@@ -12,6 +12,10 @@
 
     "jsList" : [
         "src/resource.js",
-        "src/app.js"
+        "src/app.js",
+        "src/Constants.js",
+        "src/tile.js",
+        "src/Board.js",
+        "src/GameLayer.js"
     ]
 }

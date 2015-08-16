@@ -17,11 +17,10 @@ var HelloWorldLayer = cc.Layer.extend({
             x: size.width / 2,
             y: size.height / 2,
             scale: 1,
-            rotation: 180
+            rotation: 0
         });
         this.addChild(this.sprite, 0);
-
-        
+ 
         return true;
     }
 });
@@ -29,7 +28,7 @@ var HelloWorldLayer = cc.Layer.extend({
 var HelloWorldScene = cc.Scene.extend({
     onEnter:function () {
         this._super();
-        var layer = new HelloWorldLayer();
+        var layer = new GameScene();
         this.addChild(layer);
     }
 });
